@@ -1,0 +1,20 @@
+ /* The animation code */
+
+ @keyframes size {
+    0%   {size: 2px;}
+    25%  {size: 6px;}
+    50%  {size: 10px;}
+    100% {size: 14px;}
+    
+    }
+   /* The element to apply the animation to */
+   
+   .logo {
+    size: 2px;
+     animation-name: size;
+     animation-duration: 4s;
+     animation-iteration-count: infinite;  
+     animation-direction: alternate;  
+     animation-fill-mode: forwards;
+   } 
+   
